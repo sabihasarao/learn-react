@@ -5,11 +5,11 @@ export default function Form() {
   let lastName = '';
 
   function handleFirstNameChange(e) {
-    firstName = e.target.value;
+    setFirstNme(e.target.value);
   }
 
   function handleLastNameChange(e) {
-    lastName = e.target.value;
+    setFirstNme(e.target.value);
   }
 
   function handleReset() {
